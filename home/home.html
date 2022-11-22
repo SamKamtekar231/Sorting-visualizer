@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sorting Visualizers</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/x-icon" href="opps.ico" />
+
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>Sorting Visualizer</p>
+  </a>
+  <a href="#algorithm" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>Algrothims Details</p>
+  </a>
+  <a href="#implement" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>Implement</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:29% !important">Sorting Visualizer</a>
+    <a href="#algorithm" class="w3-bar-item w3-button" style="width:29% !important">Algorithms Details</a>
+    <a href="#implement" class="w3-bar-item w3-button" style="width:29% !important">Implement</a>
+    
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">SORTING</span>  VISUALIZER</h1>
+  
+    <img src="opps.ico" alt="boy" class="w3-image" width="400" height="990">
+    
+  </header>
+ 
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="algorithm">
+    <h2 class="w3-text-light-grey">What is Sorting Algrothim</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Sorting algorithms are used to sort a data structure according to a specific order relationship, such as numerical order.
+
+
+        This operation is one of the most important and widespread in computer science. For a long time, new methods have been developed to make this procedure faster and faster.
+
+        
+        There are currently hundreds of different sorting algorithms,each with its own specific characteristics.
+        
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">Algrothim</h3>
+    <B class="w3-wide">Bubble Sort</B>
+    <p>Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
+       <LI>Worst-case time complexity O(n<sup>2</sup>) </LI>
+       <LI>Average time complexity O(n<sup>2</sup>)</LI>
+       <LI>Best-case time complexity O(n)</LI>
+       <LI>Worst-case space complexity O(1)</LI>
+    </p>
+
+    <B class="w3-wide">Selection Sort</B>
+    <p>Selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from the unsorted part and putting it at the beginning. 
+        <LI>Worst-case time complexity	O(n<sup>2</sup>)</LI>
+        <LI>Average time complexity	O(n<sup>2</sup>)</LI>
+        <LI>Best-case time complexity	O(n<sup>2</sup>)</LI>
+        <LI>Worst-case space complexity	O(1)</LI>
+    </p>
+
+    <B class="w3-wide">Insertion Sort</B>
+    <p>Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
+        <LI>Worst-case time complexity	O(n<sup>2</sup>)</LI>
+        <LI>Average time complexity	O(n<sup>2</sup>)</LI>
+        <LI>Best-case time complexity	O(n)</LI>
+        <LI>Worst-case space complexity	O(1)</LI>
+    </p>
+
+    <B class="w3-wide">Merge Sort</B>
+    <p>The Merge Sort algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm.</p>
+    <LI>Worst-case time complexity	O(n log n)</LI>
+    <LI>Average time complexity	O(n log n)</LI>
+    <LI>Best-case time complexity	O(n log n)</LI>
+    <LI>Worst-case space complexity	O(n)</LI>
+    </p>
+   
+  <div class="text" id="implement">
+    <button class="btn"><a href="file:///C:/SEM%205%20Mini-Project/sort-visualizer-master/index.html" style="margin: 40px 8px;
+      border-radius: 28px;cursor: pointer;
+    color: rgb(77, 74, 74);
+    font-size: 18px">Implement</a></button>
+    
+</div>
+
+
+</body>
+</html>

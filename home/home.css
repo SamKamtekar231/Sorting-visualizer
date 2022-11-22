@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;   
+}
+.text{
+    width: 200%;
+    margin-top: 185px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(83, 83, 83, 0.575);
+}
+.btn{
+    cursor: pointer;
+    color: rgb(77, 74, 74);
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border: 2px solid lightgray;
+    background: transparent;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 8px;
+    border-radius: 28px;
+    align-items: center;
+}
+.btn:hover{
+    color: #000;
+   
+}
+.btn a:visited{
+    background-color: rgb(97, 94, 94);
+    color: rgb(87, 84, 84);
+}
+.btn a:hover{
+    color: #000;   
+}
+.btn a:link{
+    text-decoration: none;
+}
